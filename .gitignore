@@ -1,0 +1,30 @@
+# Environment variables — never commit API keys
+.env
+.env.local
+.env.*
+
+# Database files — large and contain scraped data
+*.db
+*.db-shm
+*.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
+*.code-workspace

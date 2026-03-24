@@ -1,3 +1,7 @@
+# Output files — not for public sharing
+*.csv
+*.json
+
 # Environment variables — never commit API keys
 .env
 .env.local
